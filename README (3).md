@@ -41,21 +41,21 @@ Further improvements can be made by exploring different architectures or perform
 # Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/diabeticretinopathy.git
-cd diabeticretinopathy
+git clone https://github.com/abhinavyadav11/DiabeticRetinopathy.git
+cd DiabeticRetinopathy
 # Install the required packages:
 
 pip install -r requirements.txt
 Training the Model
 Download and prepare the dataset as described above.
-Run the training script:
 
-python train.py
 Model Inference
 You can use the trained model to make predictions on new images:
 
-python
-Copy code
+# Download the Model
+You can download the trained model from the following link: https://www.dropbox.com/scl/fi/t2sd9wkr6rmdt6uyu9x40/DiabeticRetinopathy.h5?rlkey=e7m7n295yv3na421jmcc2xe8x&st=y5gqan8r&dl=0
+
+
 from tensorflow.keras.models import load_model
 import cv2
 
@@ -74,8 +74,7 @@ predicted_class = prediction.argmax(axis=-1)
 
 # Output the result
 print(f'Predicted class: {predicted_class}')
-Download the Model
-You can download the trained model from the following link: Download Model
+
 
 # Contributing
 Contributions are welcome! Please create a pull request or raise an issue for any suggestions or improvements.
