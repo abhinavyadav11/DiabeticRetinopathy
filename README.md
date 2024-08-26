@@ -42,6 +42,8 @@ Further improvements can be made by exploring different architectures or perform
 Clone the repository:
 
 git clone https://github.com/abhinavyadav11/DiabeticRetinopathy.git
+
+
 cd DiabeticRetinopathy
 # Install the required packages:
 
