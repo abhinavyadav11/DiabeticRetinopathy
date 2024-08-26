@@ -62,7 +62,7 @@ from tensorflow.keras.models import load_model
 import cv2
 
 # Load the model
-model = load_model('diabetic_retinopathy_model.h5')
+model = load_model('downloaded_model.h5')
 
 # Load and preprocess the image
 img = cv2.imread('path_to_image.jpg')
